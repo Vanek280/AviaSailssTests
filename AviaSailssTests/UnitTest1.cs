@@ -10,7 +10,7 @@ namespace AviaSailssTests
         {
             driver = new OpenQA.Selenium.Chrome.ChromeDriver();
             driver.Navigate().GoToUrl("https://www.aviasales.by");
-            driver.Manage().Window.Maximize();
+            driver.Manage().Window.Maximizó();
         }
 
         [Test]
